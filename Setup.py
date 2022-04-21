@@ -986,6 +986,7 @@ try:
 except ModuleNotFoundError:
     try:
         print(Missing_Pip+"\n"+Install_py_pkg+" "+Os_p+", "+Time_p)
+        print("You Are Currently Running The Testing Branch For PSpammer.... You Should Not Use This As It Is Unfinished!!!")
         os.system("python -m pip install time -y")
         os.system("python -m pip install os -y")
     except ConnectionAbortedError:
@@ -1022,7 +1023,7 @@ def Dashboard():   # Dashboard Function
     try:   # Interrupts Listener
         def Home():
             print(Logo+"\n"+Version+"\n"+Path+"\n\n"+Direction+"\n"+Choices_1+"\n\n")
-            print("Yuo Are Currently Running The Testing Branch For PSpammer.... You Should Not Use This As It Is Unfinished!!!")
+            print("You Are Currently Running The Testing Branch For PSpammer.... You Should Not Use This As It Is Unfinished!!!")
             a = input(Selection)
             b = int(a)
             if b == 1:  # Setup PSpammer
@@ -1128,7 +1129,7 @@ def Dashboard():   # Dashboard Function
             elif b == 2:  # Needed Python Packages
                 Clear()
                 print(Logo+"\n"+Version+"\n"+Path+Loc_2+"\n\n")
-                print("Yuo Are Currently Running The Testing Branch For PSpammer.... You Should Not Use This As It Is Unfinished!!!")
+                print("You Are Currently Running The Testing Branch For PSpammer.... You Should Not Use This As It Is Unfinished!!!")
                 print(Install_Necessary)
                 try:
                     print(Trying_To_Install+" "+Os_p)
@@ -1155,7 +1156,7 @@ def Dashboard():   # Dashboard Function
             elif b == 5:  # Help (Done)
                 def Hel():
                     print(Logo+"\n"+Version+"\n"+Path+Loc_5+"\n\n"+Help_Temp+"\n")
-                    print("Yuo Are Currently Running The Testing Branch For PSpammer.... You Should Not Use This As It Is Unfinished!!!")
+                    print("You Are Currently Running The Testing Branch For PSpammer.... You Should Not Use This As It Is Unfinished!!!")
                     print(Direction+"\n"+Choices_2+"\n\n")
                     try:
                         A = input(Selection)
@@ -1185,11 +1186,11 @@ def Dashboard():   # Dashboard Function
             elif b == 0:  # Exit (Done)
                 Clear()
                 print(Logo+"\n"+Version+"\n"+Path+Loc_4+"\n\n"+Thanks+"\n"+Terminated_2)
-                print("Yuo Are Currently Running The Testing Branch For PSpammer.... You Should Not Use This As It Is Unfinished!!!")
+                print("You Are Currently Running The Testing Branch For PSpammer.... You Should Not Use This As It Is Unfinished!!!")
                 Exit()
             else:  # Respond To Not-On-The-List Data
                 print(Answer_Not_Found+"\n"+Returning_Home)
-                print("Yuo Are Currently Running The Testing Branch For PSpammer.... You Should Not Use This As It Is Unfinished!!!")
+                print("You Are Currently Running The Testing Branch For PSpammer.... You Should Not Use This As It Is Unfinished!!!")
                 time.sleep(Delay_Before_Getting_Purged)
                 Clear()
                 Home()
