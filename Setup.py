@@ -1216,6 +1216,8 @@ def Dashboard():   # Dashboard Function
 
 def Self_Destruct():
     Clear()
+    print("Cannot Perform An Action")
+    Exit()
 
 
 # Prog Runner:
